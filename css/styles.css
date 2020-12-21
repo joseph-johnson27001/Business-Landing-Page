@@ -8,6 +8,12 @@ p {
   font-size: 1rem;
 }
 
+hr {
+  margin-left: 30px;
+  margin-right: 30px;
+  max-width: 1200px;
+}
+
 .container {
   padding: 0;
 }
@@ -55,7 +61,7 @@ JUMBOTRON
 }
 
 #jumbotron-container {
-  padding: 4rem;
+  padding: 4rem 1rem;
 }
 
 .jumbotron h1 {
@@ -109,7 +115,7 @@ SOCIAL MEDIA CONTAINER
 #social-media-container {
   color: white;
   background-color: #65605C;
-  padding: 1rem 0;
+  padding: 1rem 1rem;
 }
 
 #address-container {
