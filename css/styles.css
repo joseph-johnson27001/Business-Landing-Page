@@ -3,6 +3,15 @@
 GENERAL STYLES
 ================================================================================ */
 
+
+p {
+  font-size: 1rem;
+}
+
+.container {
+  padding: 0;
+}
+
 .heading-container {
     padding: 2rem 0 .5rem 0;
 }
@@ -10,13 +19,14 @@ GENERAL STYLES
 .heading-row {
   background-color: #F8F8F8;
   justify-content: center;
-
+  margin: 0 0;
 }
 
 .heading-row h5 {
   background-color: #FE6B08;
   color: white;
-  padding: .8rem;
+  padding: .7rem;
+  font-weight: 300;
 }
 
 
@@ -36,13 +46,15 @@ JUMBOTRON
 ================================================================================ */
 
 .jumbotron {
-  background-color: black;
+  background-image: url("../images/mountains.jpg");
+  background-size: cover;
+  background-position: 50% 30%;
+  height: 400px;
   color: #FE6B08;
   padding: 0;
 }
 
 #jumbotron-container {
-  height: 300px;
   padding: 4rem;
 }
 
@@ -87,4 +99,9 @@ SOCIAL MEDIA CONTAINER
   color: white;
   background-color: #65605C;
   padding: 1rem 0;
+}
+
+#address-container {
+  border-top: 1px solid #5B5754;
+  border-bottom: 1px solid #5B5754;
 }
