@@ -1,3 +1,21 @@
+
+
+.heading-row {
+  background-color: #F8F8F8;
+  justify-content: center;
+  padding: .8rem 0;
+}
+
+.heading-row h5 {
+  background-color: #FE6B08;
+  color: white;
+  padding: .8rem;
+}
+
+
+
+
+
 /* ================================================================================
 NAVIGATION
 ================================================================================ */
@@ -28,7 +46,22 @@ main {
   width: 85%;
   max-width: 1200px;
   margin: auto;
+}
+
+#introductory-text {
   text-align: center;
+}
+
+/* ================================================================================
+THIRD ROW SECTION
+================================================================================ */
+
+#third-row-section {
+  height: 300px;
+}
+
+.third-row-section-images {
+  height: 180px;
 }
 
 
