@@ -46,16 +46,27 @@ JUMBOTRON
 ================================================================================ */
 
 .jumbotron {
-  background-image: url("../images/mountains.jpg");
+  background-image: url("../images/skyline.jpg");
   background-size: cover;
-  background-position: 50% 30%;
+  background-position: 50% 70%;
   height: 400px;
-  color: #FE6B08;
   padding: 0;
+  text-transform: uppercase;
 }
 
 #jumbotron-container {
   padding: 4rem;
+}
+
+.jumbotron h1 {
+  font-size: 3rem;
+  color: #FE6B08;
+  font-weight: 400;
+}
+
+.jumbotron p {
+  font-weight: 600;
+  color: white;
 }
 
 
