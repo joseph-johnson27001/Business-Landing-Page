@@ -3,6 +3,10 @@
 GENERAL STYLES
 ================================================================================ */
 
+* {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+}
 
 p {
   font-size: 1rem;
@@ -19,24 +23,20 @@ hr {
 }
 
 .heading-container {
-    padding: 2rem 0 .5rem 0;
+  padding: 4rem 0 .5rem 0;
 }
 
 .heading-row {
   background-color: #F8F8F8;
   justify-content: center;
-  margin: 0 0;
 }
 
 .heading-row h5 {
-  background-color: #FE6B08;
+  background-color: #FF6600;
   color: white;
   padding: .7rem;
   font-weight: 300;
 }
-
-
-
 
 
 /* ================================================================================
@@ -47,6 +47,36 @@ NAVIGATION
   justify-content: flex-end;
 }
 
+.navbar {
+  background-color: #F8F8F8;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar-toggler-icon {
+  margin: .2rem 0;
+}
+
+.nav-item {
+  padding: .6rem;
+}
+
+.nav-item:hover  {
+  background-color: #FF6600;
+}
+
+.active {
+  background-color: #FF6600;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+  color: white;
+}
+
+.navbar-brand {
+  color: black;
+}
+
 /* ================================================================================
 JUMBOTRON
 ================================================================================ */
@@ -55,20 +85,20 @@ JUMBOTRON
   background-image: url("../images/skyline2.jpg");
   background-size: cover;
   background-position: 50% 70%;
-  height: 380px;
+  height: 350px;
   padding: 0;
   text-transform: uppercase;
+  box-shadow: 0 0 5px black;
 }
 
 #jumbotron-container {
-  padding: 4rem 1rem;
+  padding: 4rem 1rem 2rem 0;
 }
 
 .jumbotron h1 {
   font-size: 3rem;
   color: #FE6B08;
   font-weight: 400;
-
 }
 
 .jumbotron p {
