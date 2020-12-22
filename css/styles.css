@@ -75,8 +75,12 @@ NAVIGATION
 
 .navbar-brand {
   color: black;
+  font-size: 1.6rem;
 }
 
+.fa-handshake {
+  color: #FF6600;
+}
 /* ================================================================================
 JUMBOTRON
 ================================================================================ */
@@ -84,7 +88,7 @@ JUMBOTRON
 .jumbotron {
   background-image: url("../images/skyline2.jpg");
   background-size: cover;
-  background-position: 50% 70%;
+  background-position: 50% 45%;
   height: 325px;
   padding: 0;
   text-transform: uppercase;
@@ -135,7 +139,9 @@ FIRST ROW SECTION
 /* ================================================================================
 SECOND ROW SECTION
 ================================================================================ */
-
+.card {
+  margin-bottom: 5px;
+}
 .card-body {
   background-color: #F8F8F8;
   text-align: center;
