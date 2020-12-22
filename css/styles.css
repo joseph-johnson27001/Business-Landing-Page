@@ -52,10 +52,10 @@ JUMBOTRON
 ================================================================================ */
 
 .jumbotron {
-  background-image: url("../images/skyline.jpg");
+  background-image: url("../images/skyline2.jpg");
   background-size: cover;
   background-position: 50% 70%;
-  height: 400px;
+  height: 380px;
   padding: 0;
   text-transform: uppercase;
 }
@@ -68,11 +68,13 @@ JUMBOTRON
   font-size: 3rem;
   color: #FE6B08;
   font-weight: 400;
+
 }
 
 .jumbotron p {
   font-weight: 600;
   color: white;
+
 }
 
 
