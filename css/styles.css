@@ -23,7 +23,7 @@ hr {
 }
 
 .heading-container {
-  padding: 4rem 0 .5rem 0;
+  padding: 3rem 0 .5rem 0;
 }
 
 .heading-row {
@@ -85,14 +85,14 @@ JUMBOTRON
   background-image: url("../images/skyline2.jpg");
   background-size: cover;
   background-position: 50% 70%;
-  height: 350px;
+  height: 325px;
   padding: 0;
   text-transform: uppercase;
   box-shadow: 0 0 5px black;
 }
 
 #jumbotron-container {
-  padding: 4rem 1rem 2rem 0;
+  padding: 4rem 1rem ;
 }
 
 .jumbotron h1 {
@@ -101,10 +101,9 @@ JUMBOTRON
   font-weight: 400;
 }
 
-.jumbotron p {
-  font-weight: 600;
+.lead {
+  font-weight: 400;
   color: white;
-
 }
 
 
@@ -120,6 +119,16 @@ main {
 
 #introductory-text {
   text-align: center;
+}
+
+
+/* ================================================================================
+FIRST ROW SECTION
+================================================================================ */
+
+.orange {
+  color: #FE6B08;
+  font-weight: bold;
 }
 
 
