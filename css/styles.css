@@ -92,9 +92,9 @@ JUMBOTRON
 ================================================================================ */
 
 .jumbotron {
-  background-image: url("../images/laptop.jpg");
+  background-image: url("../images/information-security.jpg");
   background-size: cover;
-  background-position: 50% 62%;
+  background-position: 50% 50%;
   height: 325px;
   padding: 0;
   text-transform: uppercase;
@@ -108,22 +108,26 @@ JUMBOTRON
 }
 
 .jumbotron h1 {
-  font-size: 3rem;
-  font-weight: 300;
-  color: black;
+  font-size: 3.5rem;
+  font-weight: 400;
+  color: white;
+  text-shadow: 0 0 5px blue;
 }
 
 .lead {
   font-weight: 500;
-  color: #FF6600;
+  color: white;
+  font-size: 3rem;
   margin-top: 1rem;
   margin-bottom: 0;
+  text-shadow: 0 0 5px blue;
 }
 
 .lead-2 {
-  font-weight: 400;
-  color: black;
-  font-size: 2.5rem;
+  font-weight: 300;
+  color: white;
+  font-size: 2.7rem;
+  text-shadow: 0 0 5px blue;
 }
 
 
@@ -131,16 +135,25 @@ JUMBOTRON
 
   #jumbotron-container {
     padding: 3rem 1rem ;
+    text-align: center;
   }
 
   .jumbotron h1 {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     margin-bottom: 1rem;
+    font-weight: 400;
   }
 
   .jumbotron .lead,
   .jumbotron .lead-2 {
     font-size: 1.5rem;
+    font-weight: 400;
+  }
+}
+
+@media(max-width: 767px) {
+  #jumbotron-container {
+    padding: 2rem;
   }
 }
 /* ================================================================================
