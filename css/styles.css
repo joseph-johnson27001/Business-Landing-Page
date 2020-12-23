@@ -111,42 +111,45 @@ JUMBOTRON
   font-size: 3.5rem;
   font-weight: 400;
   color: white;
-  text-shadow: 0 0 5px blue;
+  text-shadow: 0 0 5px black;
 }
 
 .lead {
-  font-weight: 500;
-  color: white;
-  font-size: 3rem;
+  font-weight: 100;
+  color: #FF7800;
+  font-size: 2.7rem;
   margin-top: 1rem;
   margin-bottom: 0;
-  text-shadow: 0 0 5px blue;
+  text-shadow: 0 0 5px black;
 }
 
 .lead-2 {
-  font-weight: 300;
+  font-weight: 500;
   color: white;
-  font-size: 2.7rem;
-  text-shadow: 0 0 5px blue;
+  font-size: 3rem;
+  text-shadow: 0 0 5px black;
 }
 
 
 @media (max-width: 575px) {
 
-  #jumbotron-container {
-    padding: 3rem 1rem ;
-    text-align: center;
+  .jumbotron {
+    height: 400px;
   }
 
   .jumbotron h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-bottom: 1rem;
     font-weight: 400;
   }
 
-  .jumbotron .lead,
-  .jumbotron .lead-2 {
-    font-size: 1.5rem;
+ .lead {
+      font-size: 1.8rem;
+
+  }
+
+ .lead-2 {
+    font-size: 2.5rem;
     font-weight: 400;
   }
 }
