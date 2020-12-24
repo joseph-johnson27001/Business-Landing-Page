@@ -131,10 +131,10 @@ JUMBOTRON
 }
 
 
-@media (max-width: 575px) {
+@media (max-width: 535px) {
 
   .jumbotron {
-    height: 400px;
+    height: 450px;
   }
 
   .jumbotron h1 {
@@ -145,7 +145,6 @@ JUMBOTRON
 
  .lead {
       font-size: 1.8rem;
-
   }
 
  .lead-2 {
@@ -204,13 +203,22 @@ THIRD ROW SECTION
 }
 
 /* ================================================================================
+FOURTH SECTION ROW
+================================================================================ */
+
+.social-media-name {
+  color: #FF6600;
+}
+
+/* ================================================================================
 SOCIAL MEDIA CONTAINER
 ================================================================================ */
 
-#social-media-container {
+#bottom-container {
   color: white;
-  background-color: #65605C;
+  background-color: #4D4946;
   padding: 1rem 2rem;
+  margin-top: 5px;
 }
 
 #address-container {
