@@ -95,7 +95,7 @@ JUMBOTRON
   background-image: url("../images/information-security.jpg");
   background-size: cover;
   background-position: 50% 50%;
-  height: 325px;
+  height: 355px;
   padding: 0;
   text-transform: uppercase;
   box-shadow: 0 0 10px black;
@@ -154,9 +154,15 @@ JUMBOTRON
 }
 
 @media(max-width: 767px) {
+
+  .jumbotron {
+    height: 380px;
+  }
+
   #jumbotron-container {
     padding: 2rem;
   }
+
 }
 /* ================================================================================
 MAIN
@@ -200,6 +206,10 @@ THIRD ROW SECTION
 
 .third-row-section-image {
   margin-top: 2px;
+}
+
+#third-row-section h5 {
+  margin-top: 5px;
 }
 
 /* ================================================================================
