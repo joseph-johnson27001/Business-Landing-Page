@@ -226,7 +226,23 @@ SOCIAL MEDIA CONTAINER
   margin-top: 5px;
 }
 
-#address-container {
+.social-container {
   border-top: 1px solid #5B5754;
-  border-bottom: 1px solid #5B5754;
+}
+
+.social-container ul {
+  padding-left: 0;
+}
+
+.social-container li {
+  list-style: square;
+}
+
+.social-container li a {
+  color: white;
+}
+
+.social-container li a:hover {
+  color: #FF6600;
+  text-decoration: none;
 }
